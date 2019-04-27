@@ -1,15 +1,13 @@
 import React, { useState } from 'react'
 
-type reactHook = [
-  string,
-  (value: string) => void
-]
+type squareProps = {
+  value: string,
+  onClick: (value: string) => void
+}
 
-const Square: React.FunctionComponent = () => {
-  const [ value, setValue ]: reactHook = useState('')
-
+const Square: React.FunctionComponent<squareProps> = ({ value, onClick }: squareProps) => {
   return (
-    <button onClick={() => setValue('x')}>
+    <button onClick={() => onClick}>
       {value}
     </button>
   )
