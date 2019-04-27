@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Board component renders according to snapshot 1`] = `
+<div>
+  <div>
+    <button>
+      x
+    </button>
+    <button>
+      x
+    </button>
+    <button>
+      x
+    </button>
+  </div>
+  <div>
+    <button>
+      x
+    </button>
+    <button>
+      x
+    </button>
+    <button>
+      x
+    </button>
+  </div>
+  <div>
+    <button>
+      x
+    </button>
+    <button>
+      x
+    </button>
+    <button>
+      x
+    </button>
+  </div>
+</div>
+`;

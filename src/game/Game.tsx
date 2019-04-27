@@ -1,10 +1,10 @@
 import React from 'react'
-
+import Board from './Board'
 
 const Game: React.FC = () => {
   return (
     <div>
-      Hello world
+      <Board />
     </div>
   )
 }
